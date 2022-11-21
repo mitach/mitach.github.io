@@ -72,6 +72,7 @@ function attachSpaceEvent() {
                     startSpinning(firstSlot, secondSlot, thirdSlot);
                     isStart = false;
                 } else if (!isStart) {
+                    isModalOpen = true;
                     stopSpinning(firstSlot, secondSlot, thirdSlot);
                 }
             }
@@ -149,7 +150,7 @@ function stopSpinning(firstSlot, secondSlot, thirdSlot) {
 
     setTimeout(() => {
         winnerModal.style.display = "flex";
-        isModalOpen = true;
+        // isModalOpen = true;
         numEl.textContent = winner;
     }, 1000);
 }
