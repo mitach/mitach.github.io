@@ -421,7 +421,7 @@ function setNextQuestion() {
 
     const question = questionTemplate(currQuestion);
 
-    question.addEventListener('click', checkAnswer)
+    question.addEventListener('pointerup', checkAnswer)
 
     quizContainer.appendChild(question);
 
