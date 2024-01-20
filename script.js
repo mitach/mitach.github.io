@@ -495,7 +495,7 @@ function checkAnswer(e) {
         questionDiv.append(p);
     }
 
-    questionDiv.removeEventListener('click', checkAnswer);
+    questionDiv.removeEventListener('pointeup', checkAnswer);
 
     for (let label of labels) {
         label.classList.add('no-hover');
