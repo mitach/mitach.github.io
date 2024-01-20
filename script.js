@@ -411,7 +411,7 @@ let currScore = 0;
 setNextQuestion();
 
 function setNextQuestion() {
-    if (totalAnsweredQuestions > 9) {
+    if (totalAnsweredQuestions > 29) {
         setEndResult();
 
         return
