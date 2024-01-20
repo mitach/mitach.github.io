@@ -54,6 +54,9 @@ h1 {
 .answer {
     display: block;
     padding: 8px 0;
+    margin: 2px;
+    border-radius: 8px;
+    background-color: rgba(235, 235, 235, 0.503);
 }
 
 img {
